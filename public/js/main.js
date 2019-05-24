@@ -80,7 +80,7 @@ socket.on('join_room_response',function(payload){
 	else{
 		var buttonC = makeInviteButton();
 		$('.socket_'+payload.socket_id+' button').replaceWith(buttonC);
-		dome_elements.slideDown(1000);
+		dom_elements.slideDown(1000);
 	}
 
 
